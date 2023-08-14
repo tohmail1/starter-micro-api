@@ -1,4 +1,3 @@
-const express = require("express");
 var http = require('http');
 http.createServer(function (req, res) {
     console.log(`Just got a request at ${req.url}!`)
